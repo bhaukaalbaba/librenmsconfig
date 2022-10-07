@@ -8,8 +8,8 @@ apt install acl curl fping git graphviz imagemagick mariadb-client mariadb-serve
 wget -O /etc/php/8.1/fpm/php.ini https://raw.githubusercontent.com/bhaukaalbaba/librenmsconfig/main/fpmphp.ini ;
 wget -O /etc/php/8.1/cli/php.ini https://raw.githubusercontent.com/bhaukaalbaba/librenmsconfig/main/cliphp.ini ;
 wget -O /etc/php/8.1/fpm/pool.d/librenms.conf https://raw.githubusercontent.com/bhaukaalbaba/librenmsconfig/main/phpfpmconf.conf ;
-systemctl enable php8.1-fpm
-systemctl start php8.1-fpm nginx cron
+systemctl enable php8.1-fpm ; 
+systemctl start php8.1-fpm nginx cron ; 
 
 
 
